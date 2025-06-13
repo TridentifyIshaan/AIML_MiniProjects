@@ -15,3 +15,9 @@ AIML Mini Projects for learning
 
 4. **[New Handwritten Digit Generation using Naive Bayes](4.ipynb)**  
    Demonstrates how to use a Bernoulli Naive Bayes model trained on the MNIST dataset as a generative model. The project learns the probability of each pixel being black for each digit class and uses these probabilities to generate new, synthetic digit images. Highlights the limitations of Naive Bayes for image generation.
+
+5. **[DCGAN model to generate fake images](5.ipynb)**  
+   Implements a Deep Convolutional GAN (DCGAN) to generate fake images using the Fashion-MNIST dataset. The project covers building the generator and discriminator networks, training the GAN, visualizing generated images, and creating an animation of the
+
+6. **[CGAN model to generate new data samples](6.ipynb)**  
+   Implements a Conditional GAN (CGAN) to generate the new data samples under specific categories as provided from the labelled Fashion-MNIST dataset.
