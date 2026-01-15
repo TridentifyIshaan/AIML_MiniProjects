@@ -54,14 +54,20 @@ A collection of short, self-contained notebooks covering classic ML workflows, g
 15. **California Housing linear regression** ([15.ipynb](15.ipynb))  
     Cleans and scales the California Housing dataset, fits a baseline linear regression, and reports MAE/MSE/R².
 
-16. **Zomato EDA** ([ZomatoEDA.ipynb](ZomatoEDA.ipynb))  
+16. **Zomato EDA** ([16.ipynb](16.ipynb))  
     Exploratory analysis of the Zomato restaurant dataset: missing-value checks, numeric/categorical profiling, and basic visualizations.
 
-17. **Water Jug search problem** ([16.ipynb](16.ipynb))  
+17. **Water Jug search problem** ([17.ipynb](17.ipynb))  
     Explains the classic 3L–5L jug puzzle and implements BFS search strategies to reach the 4L goal state.
 
+18. **Rat in a Maze (DFS)** ([18.ipynb](18.ipynb))  
+    Pathfinding problem where a rat navigates from top-left to bottom-right in a binary maze; uses Depth-First Search to find all valid paths in lexicographic order.
+
+19. **Nepal Earthquake Classification** ([19.ipynb](19.ipynb))  
+    Binary classification model to predict major vs. minor earthquakes using the Nepal seismicity dataset; focuses on high-recall detection of major seismic events.
+
 ## Data and artifacts
-- `datasets/mnist/`, `datasets/fashion-mnist/`, `datasets/california-housing/` supply CSVs for the MNIST, Fashion-MNIST, and housing experiments.
+- `datasets/mnist/`, `datasets/fashion-mnist/`, `datasets/california-housing/`, and `datasets/nepal-earthquale/` supply CSVs for the MNIST, Fashion-MNIST, housing, and Nepal earthquake experiments.
 - Age detection notebooks expect zipped data at `datasets/agedetectiontrain.zip` and `datasets/agedetectiontest.zip` with `train.csv`/`test.csv` and `Train/`/`Test/` image folders.
 - TensorBoard logs from activation/optimizer sweeps are stored in `activation/`, `optims/`, and `optims2/`. Point TensorBoard to these roots to compare runs.
 
