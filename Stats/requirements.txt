@@ -5,3 +5,5 @@ pandas
 statistics
 numpy
 statsmodels
+scipy
+scikit-learn
