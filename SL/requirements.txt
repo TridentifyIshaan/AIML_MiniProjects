@@ -1,0 +1,8 @@
+seaborn
+numpy
+matplotlib
+pandas
+numpy
+scipy
+scikit-learn
+mlxtend
