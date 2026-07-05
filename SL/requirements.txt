@@ -5,4 +5,4 @@ pandas
 numpy
 scipy
 scikit-learn
-mlxtend
+mlxtend # for machine learning extensions like stacking, ensemble methods, etc.
